@@ -1,0 +1,36 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    width: 70%;
+}
+
+#editor{
+    border-radius: 10px; /* round component edges*/
+    width: 100%;
+    height: 80vh;
+    font-size: 14px;
+    background-color: white;
+    resize: none;
+    color: grey;
+    padding: 10px; /* component padding*/
+    overflow: auto; /* helps to avoid screen overflow */
+}
+
+#preview{
+    margin-top: 10px;
+    border-radius: 10px; /* round component edges*/
+    width: 100%;
+    height: 80vh;
+    font-size: 14px;
+    background-color: white;
+    resize: none;
+    color: grey;
+    padding: 10px; /* component padding*/
+    overflow: auto; /* helps to avoid screen overflow */
+}
+
+img {
+    max-width: 100%;
+}
